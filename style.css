@@ -8,16 +8,16 @@ a{
 a:hover{
 	color: inherit;
 }
-
+.border--grey{
+	border-bottom: 8px solid #222;
+}
 
 /* header-navigation */
 .header{
 	background-image: linear-gradient(to top,rgba(0,0,0,.9) 0,rgba(0,0,0,.4) 60%,rgba(0,0,0,.7) 100%),
 					  url(img/header-bg.jpg);
 	background-size: cover;
-	background-position: center; 	
-
-	border-bottom: 8px solid #222;
+	background-position: center;
 }
 .nav{
 	height: 6.25rem;
@@ -25,7 +25,6 @@ a:hover{
 .logo{
 	height: 2.8125rem;
 }
-
 .header__content{
 	height: 44.15rem; 
 	/* ?? */
@@ -36,13 +35,17 @@ a:hover{
 	font-weight: bold;
 	line-height: 1.1;
 }
-.h2{
+h1{
+	font-size: 3.6rem;
+	font-weight: bold;
+	line-height: 1.1;
+}
+h2{
 	font-size: 1.8rem;
 	line-height: 1.1;
 }
-.h3{
+h3{
 	font-size: 1.37rem;
-
 }
 #button-addon2{
 	font-size: 1.875rem;
@@ -59,6 +62,36 @@ a:hover{
 label:focus{
 	color: black;
 }
+
+
+/* sec-1 */
+.sec-1__img{
+	height: 24.853125rem;
+}
+.sec-1__image{
+	position: relative;
+}
+.sec-1__video{
+	height: 13.44rem;
+	position: absolute;
+	left: 11.2%;
+	top: 21%;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1200px) {
 	h1, .h1 {
