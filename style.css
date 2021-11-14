@@ -9,7 +9,7 @@ a:hover{
 	color: inherit;
 }
 .border--grey{
-	border-bottom: 8px solid #222;
+	border-bottom: 10px solid #222;
 }
 
 /* header-navigation */
@@ -79,6 +79,41 @@ label:focus{
 	z-index: -1;
 }
 
+
+/* sec-2 */
+.sec-2__img{
+	/* width:5.714rem ; */
+	height: 5.3rem;
+}
+.sec-2__imgMobil{
+	width: 35.56rem;
+}
+.sec-2__gif{
+	width: 3rem;
+	height: 3.75rem;
+	
+	background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+	background-size: cover;
+	background-position: center;
+}
+.sec-2__left{
+	position: relative;
+}
+.sec-2__left-content{
+	width: 20.68625rem;
+	height: 6.5rem;
+	border: 2px solid rgba(255,255,255,.25);
+	border-radius: 0.75em;
+	background-color: black;
+	
+	position: absolute;
+	left: 20%;
+	top: 70%;
+	z-index: 5;
+}
+.p{
+	color: #0071eb;
+}
 
 
 
