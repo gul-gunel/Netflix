@@ -116,6 +116,27 @@ label:focus{
 }
 
 
+/* sec-3 */
+.sec-3__img{
+	height: 26.036875rem;
+}
+.sec-3__image{
+	position: relative;
+}
+.sec-3__video{
+	height: 12rem;
+	position: absolute;
+	left: 17%;
+	top: 12%;
+	z-index: -1;
+}
+
+
+/* sec-4 */
+.sec-4__img{
+	width: 31.46rem;
+}
+
 
 
 
@@ -142,10 +163,25 @@ label:focus{
 	h1, .h1 {
 	  font-size: 3.2rem;
 	}
+	.container, .header{
+		text-align: center;
+	}
 }
 @media (max-width: 576px) {
 	h1, .h1 {
 	  font-size: 2.5rem;
+	}
+	.container, .header{
+		padding: 1rem;
+		text-align: center;
+	}
+	.sec-3__video{
+		height: 10.8rem;
+	}
+	.sec-2__left-content{
+		left: 24.5%;
+		top: 70%;
+		z-index: 5;
 	}
 }
 
